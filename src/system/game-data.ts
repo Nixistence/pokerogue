@@ -1509,8 +1509,8 @@ export class GameData {
       starterData[speciesId] = {
         moveset: null,
         eggMoves: 0,
-        candyCount: 0,
-        friendship: 0,
+        candyCount: 500000,
+        friendship: 255,
         abilityAttr: defaultStarterSpecies.includes(speciesId) ? AbilityAttr.ABILITY_1 : 0,
         passiveAttr: 0,
         valueReduction: 0,

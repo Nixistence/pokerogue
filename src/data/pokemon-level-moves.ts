@@ -2812,7 +2812,8 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [ 42, Moves.AMNESIA ],
     [ 46, Moves.BATON_PASS ],
     [ 50, Moves.DOUBLE_EDGE ],
-    [ 56, Moves.HYPER_VOICE ],
+    [ 56, Moves.EXTREME_SPEED ],
+    [ 100, Moves.DRAGON_ASCENT],
   ],
   [Species.HOOTHOOT]: [
     [ 1, Moves.GROWL ],
