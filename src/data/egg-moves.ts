@@ -76,7 +76,7 @@ export const speciesEggMoves = {
   [Species.CHIKORITA]: [ Moves.SAPPY_SEED, Moves.STONE_AXE, Moves.DRAGON_DANCE, Moves.SPORE ],
   [Species.CYNDAQUIL]: [ Moves.NASTY_PLOT, Moves.SCORCHING_SANDS, Moves.FIERY_DANCE, Moves.ELECTRO_DRIFT ],
   [Species.TOTODILE]: [ Moves.THUNDER_PUNCH, Moves.DRAGON_DANCE, Moves.TRIPLE_AXEL, Moves.FISHIOUS_REND ],
-  [Species.SENTRET]: [ Moves.TIDY_UP, Moves.THIEF, Moves.NUZZLE, Moves.EXTREME_SPEED ],
+  [Species.SENTRET]: [ Moves.TIDY_UP, Moves.NUZZLE, Moves.SIZZLY_SLIDE, Moves.DOUBLE_IRON_BASH ],
   [Species.HOOTHOOT]: [ Moves.CALM_MIND, Moves.ESPER_WING, Moves.AEROBLAST, Moves.BOOMBURST ],
   [Species.LEDYBA]: [ Moves.POLLEN_PUFF, Moves.THIEF, Moves.PARTING_SHOT, Moves.SPORE ],
   [Species.SPINARAK]: [ Moves.PARTING_SHOT, Moves.ATTACK_ORDER, Moves.GASTRO_ACID, Moves.STRENGTH_SAP ],

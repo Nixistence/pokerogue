@@ -314,7 +314,7 @@ export const pokemonEvolutions: PokemonEvolutions = {
     new SpeciesEvolution(Species.FERALIGATR, 30, null, null)
   ],
   [Species.SENTRET]: [
-    new SpeciesEvolution(Species.FURRET, 15, null, null)
+    new SpeciesEvolution(Species.FURRET, 6, null, null)
   ],
   [Species.HOOTHOOT]: [
     new SpeciesEvolution(Species.NOCTOWL, 20, null, null)
