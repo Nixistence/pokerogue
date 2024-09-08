@@ -56,7 +56,8 @@ export const defaultStarterSpecies: Species[] = [
   Species.CHESPIN, Species.FENNEKIN, Species.FROAKIE,
   Species.ROWLET, Species.LITTEN, Species.POPPLIO,
   Species.GROOKEY, Species.SCORBUNNY, Species.SOBBLE,
-  Species.SPRIGATITO, Species.FUECOCO, Species.QUAXLY
+  Species.SPRIGATITO, Species.FUECOCO, Species.QUAXLY,
+  Species.SENTRET
 ];
 
 const saveKey = "x0i2O7WRiANTqPmZ"; // Temporary; secure encryption is not yet necessary
@@ -1475,12 +1476,12 @@ export class GameData {
       };
     }
 
-    const defaultStarterAttr = DexAttr.NON_SHINY | DexAttr.MALE | DexAttr.FEMALE | DexAttr.DEFAULT_VARIANT | DexAttr.DEFAULT_FORM;
+    const defaultStarterAttr = DexAttr.SHINY | DexAttr.MALE | DexAttr.FEMALE | DexAttr.DEFAULT_VARIANT | DexAttr.DEFAULT_FORM | DexAttr.VARIANT_3 | DexAttr.VARIANT_2;
 
     const defaultStarterNatures: Nature[] = [];
 
     this.scene.executeWithSeedOffset(() => {
-      const neutralNatures = [ Nature.HARDY, Nature.DOCILE, Nature.SERIOUS, Nature.BASHFUL, Nature.QUIRKY ];
+      const neutralNatures = [ Nature.HARDY, Nature.DOCILE, Nature.SERIOUS, Nature.BASHFUL, Nature.QUIRKY, Nature.ADAMANT ];
       for (let s = 0; s < defaultStarterSpecies.length; s++) {
         defaultStarterNatures.push(Utils.randSeedItem(neutralNatures));
       }
